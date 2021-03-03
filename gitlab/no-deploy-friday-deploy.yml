@@ -1,0 +1,16 @@
+.no-deploy-friday:
+  stage: deploy
+  variables:
+    TZ: Europe/Prague
+  before_script:
+    - [ "$(date +%u)" -ge 5 -a "$(date +%H)" -ge 17 ] && { echo "Leave it on next week"; exit 1 } || { echo "Go ahead"; exit 0 }
+  only: 
+    - merge_requests
+
+# include:
+#   - https://raw.githubusercontent.com/jindrichskupa/no-deploy-friday/master/gitlab/no-deploy-friday-test.yml
+#
+# deploy:
+#   extends: .no-deploy-friday
+#   script:
+#     - /bin/true
