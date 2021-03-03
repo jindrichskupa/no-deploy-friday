@@ -8,4 +8,4 @@ no-deploy-friday:
     - merge_requests
 
 # include:
-#   - https://raw.githubusercontent.com/jindrichskupa/no-deploy-friday/master/gitlab/no-deploy-friday.yml
+#   - https://raw.githubusercontent.com/jindrichskupa/no-deploy-friday/master/gitlab/no-deploy-friday-test.yml
