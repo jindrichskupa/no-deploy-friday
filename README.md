@@ -1,6 +1,6 @@
 # no deploy friday
 
-Tools to avoid deploy on fridays. Don't drink and deploy on Friday.
+Tools to avoid deploy on Fridays. Don't drink and deploy on Friday.
 
 ## Gitlab
 
