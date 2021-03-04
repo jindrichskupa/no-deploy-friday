@@ -7,5 +7,6 @@ no-deploy-friday:
   only: 
     - merge_requests
 
+# Usage:
 # include:
 #   - https://raw.githubusercontent.com/jindrichskupa/no-deploy-friday/master/gitlab/no-deploy-friday-test.yml

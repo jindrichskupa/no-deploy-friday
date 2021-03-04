@@ -7,10 +7,12 @@
   only: 
     - merge_requests
 
+# Usage:
 # include:
-#   - https://raw.githubusercontent.com/jindrichskupa/no-deploy-friday/master/gitlab/no-deploy-friday-test.yml
+#   - https://raw.githubusercontent.com/jindrichskupa/no-deploy-friday/master/gitlab/no-deploy-friday-deploy.yml
 #
 # deploy:
 #   extends: .no-deploy-friday
 #   script:
 #     - /bin/true
+#   ...
